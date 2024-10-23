@@ -1,0 +1,18 @@
+.glavno{
+    background-color: rgb(139, 35, 224);
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 150px;
+}
+body {
+    background-color: rgb(180, 204, 212);
+}
+
+.tekst{
+    margin-left: 5%;
+    margin-right: 5%;
+}
