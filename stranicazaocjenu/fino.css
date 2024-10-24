@@ -1,0 +1,17 @@
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    font-family: fantasy;
+    font-size: 25px;
+}
+
+.row img {
+    max-width: 50%; 
+    height: auto; 
+    border-radius: 50px;
+}
+
+.row div {
+    text-align: center
+}
