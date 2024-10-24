@@ -11,8 +11,39 @@
 body {
     background-color: rgb(180, 204, 212);
 }
-
+p {
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
 .tekst{
     margin-left: 5%;
     margin-right: 5%;
+}
+ 
+.ljesnjak{
+    background-color: rgb(52, 218, 88);
+    padding: 20px;
+    text-align: center;
+}
+img{
+    width: 30%;
+    display: block;
+    margin: auto;
+}
+ 
+.riza{
+    background-color: whitesmoke;
+    padding: 20px;
+    text-align: center;
+}
+.bijelo{
+    background-color: whitesmoke;
+}
+.slika{
+    border-radius: 20px;
 }
