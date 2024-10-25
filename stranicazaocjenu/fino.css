@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center; 
-    font-family: fantasy;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 25px;
 }
 
