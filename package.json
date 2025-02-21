@@ -1,0 +1,25 @@
+{
+  "name": "test_html",
+  "version": "1.0.0",
+  "description": "This is my first nodeJS package",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cylon307/sjiwp3.git"
+  },
+  "keywords": [
+    "nodejs",
+    "npm",
+    "tutorial",
+    "express"
+  ],
+  "author": "matejbaranic307@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cylon307/sjiwp3/issues"
+  },
+  "homepage": "https://github.com/Cylon307/sjiwp3#readme"
+}
