@@ -1,25 +1,27 @@
 {
-  "name": "test_html",
-  "version": "1.0.0",
-  "description": "This is my first nodeJS package",
-  "main": "app.js",
+  "name": "test-html",
+  "version": "0.0.1",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon -r dotenv/config./bin/www",
+    "start": "node -r dotenv/config ./bin/www",
+    "tw": "npx tailwindcss -i ./public/stylesheets/input.css -o ./public/stylesheets/output.css --watch"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Cylon307/sjiwp3.git"
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.7",
+    "debug": "^4.3.7",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.1",
+    "hbs": "^4.2.0",
+    "http-errors": "^2.0.0",
+    "joi": "^17.13.3",
+    "mariadb": "^3.4.0",
+    "morgan": "^1.10.0"
   },
-  "keywords": [
-    "nodejs",
-    "npm",
-    "tutorial",
-    "express"
-  ],
-  "author": "matejbaranic307@gmail.com",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Cylon307/sjiwp3/issues"
-  },
-  "homepage": "https://github.com/Cylon307/sjiwp3#readme"
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.10",
+    "nodemon": "^3.1.7",
+    "tailwindcss": "^3.4.17"
+  }
 }
